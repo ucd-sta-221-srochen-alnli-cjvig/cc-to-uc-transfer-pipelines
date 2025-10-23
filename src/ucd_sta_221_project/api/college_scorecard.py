@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import time
 
-from src.ucd_sta_221_project.scripts.utils import flatten_dict
+from src.ucd_sta_221_project.api.utils import flatten_dict
 
 def _get_api_key() -> str:
     """
