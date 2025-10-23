@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccc_ml"  # The name used in pip install
+version = "0.1.0"
+description = "Wrapper for various college-relevant APIs"
+readme = "README.md" 
+authors = [
+    { name = "Cody Vig", email = "cody.cjv@gmail.com" }
+]
+
+requires-python = ">=3.12"
+
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "requests>=2.32",
+]
