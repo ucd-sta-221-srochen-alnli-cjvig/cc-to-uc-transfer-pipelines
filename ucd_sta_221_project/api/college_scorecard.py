@@ -1,3 +1,17 @@
+"""
+This module contains functions to interact with the College Scorecard API. This
+API uses data taken from IPEDS (Integrated Postsecondary Education Data System),
+which is data reported by colleges to the Federal Government (Dept of Education)
+
+The API documentation can be found at:
+https://collegescorecard.ed.gov/data/api-documentation/
+
+The data documentation can be found at:
+https://collegescorecard.ed.gov/data/data-documentation/
+
+or at `docs/collegescorecard_ed_gov/`.
+"""
+
 import os
 import pandas as pd
 import requests
