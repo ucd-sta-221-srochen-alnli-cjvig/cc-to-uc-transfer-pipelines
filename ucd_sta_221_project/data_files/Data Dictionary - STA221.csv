@@ -1,0 +1,204 @@
+Source,Data Definition,Feature,Q1,Q2,Q3,Notes
+"{cc, uc}_scorecard.csv",Reporting year,year,TRUE,TRUE,TRUE,
+"{cc, uc}_scorecard.csv",Name of the institution,school.name,FALSE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv","Office of Postsecondary Education Identifier, a unique identifier for schools, maintained by the Office of Postsecondary Education",ope6_id,FALSE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Latitude coodinate of the school's main campus.,location.lat,FALSE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Longitude coodinate of the school's main campus.,location.lon,FALSE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv","Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a Pell Grant",aid.ftft_pell_grant_rate,TRUE,TRUE,TRUE,
+"{cc, uc}_scorecard.csv","Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a federal loan",aid.ftft_federal_loan_rate,TRUE,TRUE,TRUE,
+"{cc, uc}_scorecard.csv",Percentage of undergraduates who receive a Pell Grant,aid.pell_grant_rate,TRUE,TRUE,TRUE,
+"{cc, uc}_scorecard.csv",Percent of all undergraduate students receiving a federal student loan,aid.federal_loan_rate,TRUE,TRUE,TRUE,
+"{cc, uc}_scorecard.csv",The median original amount of the loan principal upon entering repayment,aid.loan_principal,TRUE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",The median debt for Pell students,aid.median_debt.pell_grant,TRUE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",The median debt for no-Pell students,aid.median_debt.no_pell_grant,TRUE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",The median debt for first-generation students,aid.median_debt.first_generation_students,TRUE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",The median debt for not-first-generation students,aid.median_debt.non_first_generation_students,TRUE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are white,student.demographics.race_ethnicity.white,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are black,student.demographics.race_ethnicity.black,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are Hispanic,student.demographics.race_ethnicity.hispanic,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are Asian,student.demographics.race_ethnicity.asian,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native,student.demographics.race_ethnicity.aian,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are Native Hawaiian/Pacific Islander,student.demographics.race_ethnicity.nhpi,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are two or more races,student.demographics.race_ethnicity.two_or_more,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are non-resident aliens,student.demographics.race_ethnicity.non_resident_alien,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students whose race is unknown,student.demographics.race_ethnicity.unknown,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are men,student.demographics.men,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Total share of enrollment of undergraduate degree-seeking students who are women,student.demographics.women,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Undergraduate student to instructional faculty ratio,student.demographics.student_faculty_ratio,TRUE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are Two or More Races,student.demographics.faculty.race_ethnicity.two_or_more,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are American Indian or Alaskan Native,student.demographics.faculty.race_ethnicity.aian,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are Asian,student.demographics.faculty.race_ethnicity.asian,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are Black or African American,student.demographics.faculty.race_ethnicity.black,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are Hispanic,student.demographics.faculty.race_ethnicity.hispanic,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are Native Hawaiian or Other Pacific Islander,student.demographics.faculty.race_ethnicity.nhpi,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are U.S. Nonresidents,student.demographics.faculty.race_ethnicity.non_resident_alien,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are of unknown race/ethnicity,student.demographics.faculty.race_ethnicity.unknown,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are White,student.demographics.faculty.race_ethnicity.white,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are men,student.demographics.faculty.men,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Share of full time faculty that are women,student.demographics.faculty.women,TRUE,FALSE,FALSE,
+"{cc, uc}_scorecard.csv",Unduplicated count of undergraduate students enrolled during a 12 month period,student.enrollment.undergrad_12_month,TRUE,FALSE,TRUE,
+"{cc, uc}_scorecard.csv",Average net price for Title IV institutions (public institutions),cost.avg_net_price.public,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Average net price for $0-$30,000 family income (public institutions)",cost.net_price.public.by_income_level.0-30000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Average net price for $30,001-$48,000 family income (public institutions)",cost.net_price.public.by_income_level.30001-48000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Average net price for $48,001-$75,000 family income (public institutions)",cost.net_price.public.by_income_level.48001-75000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Average net price for $75,001-$110,000 family income (public institutions)",cost.net_price.public.by_income_level.75001-110000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Average net price for $110,000+ family income (public institutions)",cost.net_price.public.by_income_level.110001-plus,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Number of Title IV students, $0-$30,000 family income (public institutions)",cost.title_iv.public.by_income_level.0-30000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Number of Title IV students, $30,001-$48,000 family income (public institutions)",cost.title_iv.public.by_income_level.30001-48000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Number of Title IV students, $48,001-$75,000 family income (public institutions)",cost.title_iv.public.by_income_level.48001-75000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Number of Title IV students, $75,001-$110,000 family income (public institutions)",cost.title_iv.public.by_income_level.75001-110000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Number of Title IV students, $110,000+ family income (public institutions)",cost.title_iv.public.by_income_level.110001-plus,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Average cost of attendance (academic year institutions),cost.attendance.academic_year,FALSE,TRUE,TRUE,
+"{cc, uc}_scorecard.csv",In-state tuition and fees,cost.tuition.in_state,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Out-of-state tuition and fees,cost.tuition.out_of_state,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Cost of attendance: estimated books and supplies,cost.booksupply,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Cost of attendance: on-campus room and board,cost.roomboard.oncampus,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Cost of attendance: on-campus other expenses,cost.otherexpense.oncampus,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Cost of attendance: off-campus room and board,cost.roomboard.offcampus,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Cost of attendance: off-campus other expenses,cost.otherexpense.offcampus,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Cost of attendance: with-family other expenses,cost.otherexpense.withfamily,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv",Admission rate,admissions.admission_rate.overall,TRUE,FALSE,TRUE,
+"{cc, uc}_scorecard.csv","The median debt for students with family income between $0-$30,000",aid.median_debt.income.0_30000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","The median debt for students with family income between $30,001-$75,000",aid.median_debt.income.30001_75000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","The median debt for students with family income $75,001+",aid.median_debt.income.greater_than_75000,FALSE,TRUE,FALSE,
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Agriculture, Agriculture Operations, And Related Sciences.",academics.program_percentage.agriculture,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Natural Resources And Conservation.,academics.program_percentage.resources,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Architecture And Related Services.,academics.program_percentage.architecture,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Area, Ethnic, Cultural, Gender, And Group Studies.",academics.program_percentage.ethnic_cultural_gender,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Communication, Journalism, And Related Programs.",academics.program_percentage.communication,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Communications Technologies/Technicians And Support Services.,academics.program_percentage.communications_technology,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Computer And Information Sciences And Support Services.,academics.program_percentage.computer,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Personal And Culinary Services.,academics.program_percentage.personal_culinary,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Education.,academics.program_percentage.education,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Engineering.,academics.program_percentage.engineering,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Engineering Technologies And Engineering-Related Fields.,academics.program_percentage.engineering_technology,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Foreign Languages, Literatures, And Linguistics.",academics.program_percentage.language,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Family And Consumer Sciences/Human Sciences.,academics.program_percentage.family_consumer_science,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Legal Professions And Studies.,academics.program_percentage.legal,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in English Language And Literature/Letters.,academics.program_percentage.english,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Liberal Arts And Sciences, General Studies And Humanities.",academics.program_percentage.humanities,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Library Science.,academics.program_percentage.library,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Biological And Biomedical Sciences.,academics.program_percentage.biological,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Mathematics And Statistics.,academics.program_percentage.mathematics,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Military Technologies And Applied Sciences.,academics.program_percentage.military,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Multi/Interdisciplinary Studies.,academics.program_percentage.multidiscipline,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Parks, Recreation, Leisure, And Fitness Studies.",academics.program_percentage.parks_recreation_fitness,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Philosophy And Religious Studies.,academics.program_percentage.philosophy_religious,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Theology And Religious Vocations.,academics.program_percentage.theology_religious_vocation,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Physical Sciences.,academics.program_percentage.physical_science,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Science Technologies/Technicians.,academics.program_percentage.science_technology,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Psychology.,academics.program_percentage.psychology,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",academics.program_percentage.security_law_enforcement,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Public Administration And Social Service Professions.,academics.program_percentage.public_administration_social_service,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Social Sciences.,academics.program_percentage.social_science,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Construction Trades.,academics.program_percentage.construction,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Mechanic And Repair Technologies/Technicians.,academics.program_percentage.mechanic_repair_technology,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Precision Production.,academics.program_percentage.precision_production,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Transportation And Materials Moving.,academics.program_percentage.transportation,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Visual And Performing Arts.,academics.program_percentage.visual_performing,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in Health Professions And Related Programs.,academics.program_percentage.health,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv","Percentage of degrees awarded in Business, Management, Marketing, And Related Support Services.",academics.program_percentage.business_marketing,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",Percentage of degrees awarded in History.,academics.program_percentage.history,FALSE,TRUE,FALSE,This field is not used individually. It will be used to approximate percentage of programs that are STEM
+"{cc, uc}_scorecard.csv",,completion.transfer_rate.less_than_4yr.full_time,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate.cohort_less_than_4yr.full_time,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate.4yr.full_time_pooled,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate.less_than_4yr.full_time_pooled,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate.cohort_4yr.full_time_pooled,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate.cohort_less_than_4yr.full_time_pooled,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate_suppressed.4yr.full_time_pooled,FALSE,FALSE,FALSE,In Progress
+"{cc, uc}_scorecard.csv",,completion.transfer_rate_suppressed.less_than_4yr.full_time_pooled,FALSE,FALSE,FALSE,In Progress
+cc2uc_major.csv,Academic year,Year,TRUE,FALSE,TRUE,"Range: ""2012-13"" - “2023-24”"
+cc2uc_major.csv,UC campus,UC,TRUE,FALSE,TRUE,
+cc2uc_major.csv,Field of enrolled major,Field,TRUE,FALSE,TRUE," e.g. ""SOCIAL SCIENCES"", ""BIOLOGICAL AND BIOMEDICAL SCIENCES"""
+cc2uc_major.csv,Enrolled major,Major,TRUE,FALSE,TRUE," e.g. ""Economics"", ""Sociology"", ""Biology, General"""
+cc2uc_major.csv,Number of enrolls ,Enrolls,TRUE,FALSE,TRUE,
+cc2uc_major.csv,CC name,CC,TRUE,FALSE,TRUE,
+"cc2uc_3status_{eth, gnd}.csv",City of CC,City,TRUE,FALSE,TRUE,
+"cc2uc_3status_{eth, gnd}.csv",Counting scope ,Count,TRUE,FALSE,TRUE,"App: Applied, Adm: Admitted, Enr: Enrolled"
+"cc2uc_3status_{eth, gnd}.csv",County of CC,County,TRUE,FALSE,TRUE,
+"cc2uc_3status_{eth, gnd}.csv",CC name,School,TRUE,FALSE,TRUE,
+"cc2uc_3status_{eth, gnd}.csv",Number of students for a given counting scope,Num,TRUE,FALSE,TRUE,
+"cc2uc_3status_{eth, gnd}.csv",UC campus,UC,TRUE,FALSE,TRUE,
+"cc2uc_3status_{eth, gnd}.csv",Academic year,Year,TRUE,FALSE,TRUE,"Range: ""2005-06"" - “2023-24” (Merced is opened at 2005)"
+cc2uc_3status_eth.csv,Ethnicity of students,Ethnicity,TRUE,FALSE,TRUE,"""All""/""African American""/""Hispanic/ Latinx""/""Asian""/""White""/""Domestic Unknown""/""Int'l"""
+cc2uc_3status_gnd.csv,Gender of students,Gender,TRUE,FALSE,TRUE,"""All""/""Female""/""Male""/""Unknown"""
+TransferVelocity.csv,"The group of CC students who, within 4 years of initial enrollment, completed at least 12 units and attempted a transfer-level math or English course (showed behavioral intent to transfer).",Transferred Student,FALSE,FALSE,FALSE,
+TransferVelocity.csv,Students who enrolled in a bachelor’s-granting (four-year) institution within 4 years of their initial enrollment at a CC.,Cohort Student,FALSE,FALSE,FALSE,
+StudentFinAidSumm.csv,A state program that waives enrollment fees/tuition: it does not provide cash awards.,California College Promise Grant Total,TRUE,FALSE,TRUE,
+StudentFinAidSumm.csv,Need- or status-based awards that students receive and do not have to repay.,Grants Total,TRUE,FALSE,TRUE,
+StudentFinAidSumm.csv,Pay for school now and then repay the money later with interest.,Loans Total,TRUE,FALSE,TRUE,
+StudentFinAidSumm.csv,Merit- or criteria-based awards that do not need to be repaid,Scholarship Total,TRUE,FALSE,TRUE,
+StudentFinAidSumm.csv,"Work Study combines financial aid with part-time jobs, allowing students to earn money for tuition and living expenses through work.",Work Study Total,TRUE,FALSE,FALSE,
+StudentCitizenshipStatus.csv,"All persons born in the United States are, with rare exception, United States citizens",U.S. citizen,TRUE,FALSE,TRUE,
+StudentCitizenshipStatus.csv,"A person who has been admitted to the U.S. as an immigrant, and who has acquired permanent residency status through the appropriate legal processes.",Permanent Resident,TRUE,FALSE,FALSE,
+StudentCitizenshipStatus.csv,A person who has been admitted to the U.S. to participate in a program of academic or vocational study at a specified educational institution.,Student Visa (F-1 or M-1 visa),TRUE,FALSE,FALSE,
+StudentCitizenshipStatus.csv,A person who has been granted status as a temporary resident under provisions of the Immigration Reform and Control Act of 1986.,Temporary Resident,TRUE,FALSE,FALSE,
+StudentCitizenshipStatus.csv,NA,Status Unknown / Uncollected,TRUE,FALSE,FALSE,
+StudentCitizenshipStatus.csv,A  person who resides in the U.S. under some provision other than the above. ,Other Status,TRUE,FALSE,FALSE,
+StudentCitizenshipStatus.csv,A person who has been admitted to the U.S. as a refugee /  allowed to remain in the U.S. after seeking asylum.  ,Refugee / Asylee,TRUE,FALSE,FALSE,
+cc_uc_drive_distances.csv,"Driving distance in miles between a CC-UC pair, suggested by Google Routes API.",distance_miles,TRUE,FALSE,TRUE,
+cc_uc_drive_distances.csv,"Driving duration in hours between a CC-UC pair, suggested by Google Routes API.",duration_hours,TRUE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
+,,,FALSE,FALSE,FALSE,
