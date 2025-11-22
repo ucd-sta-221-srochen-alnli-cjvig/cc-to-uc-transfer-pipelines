@@ -1,0 +1,1368 @@
+year,college,eops_headcount,eops_care_headcount
+2012,Alameda,628.0,23.0
+2012,Allan Hancock,846.0,187.0
+2012,American River,897.0,109.0
+2012,Antelope Valley,528.0,103.0
+2012,Bakersfield,635.0,154.0
+2012,Barstow,281.0,56.0
+2012,Berkeley City,352.0,30.0
+2012,Butte,1256.0,101.0
+2012,Cabrillo,192.0,45.0
+2012,Canada,264.0,30.0
+2012,Canyons,490.0,36.0
+2012,Cerritos,705.0,52.0
+2012,Cerro Coso,305.0,69.0
+2012,Chabot Hayward,224.0,45.0
+2012,Chaffey,839.0,54.0
+2012,Citrus,533.0,44.0
+2012,Coalinga College,124.0,21.0
+2012,Coastline,170.0,5.0
+2012,Columbia,190.0,12.0
+2012,Compton,855.0,199.0
+2012,Contra Costa,498.0,55.0
+2012,Copper Mountain College,107.0,28.0
+2012,Cosumnes River,583.0,67.0
+2012,Crafton Hills,354.0,39.0
+2012,Cuesta,211.0,56.0
+2012,Cuyamaca,528.0,75.0
+2012,Cypress,423.0,92.0
+2012,Deanza,631.0,48.0
+2012,Desert,242.0,52.0
+2012,Diablo Valley,655.0,70.0
+2012,East LA,1465.0,87.0
+2012,El Camino,821.0,132.0
+2012,Evergreen Valley,570.0,69.0
+2012,Feather River,147.0,28.0
+2012,Folsom Lake,163.0,36.0
+2012,Foothill,456.0,38.0
+2012,Fresno City,1260.0,144.0
+2012,Fullerton,1148.0,106.0
+2012,Gavilan,275.0,106.0
+2012,Glendale,1738.0,28.0
+2012,Golden West,965.0,37.0
+2012,Grossmont,869.0,92.0
+2012,Hartnell,465.0,115.0
+2012,Imperial,1071.0,168.0
+2012,Irvine,463.0,54.0
+2012,LA City,2460.0,73.0
+2012,LA Harbor,511.0,92.0
+2012,LA Mission,581.0,45.0
+2012,LA Pierce,759.0,24.0
+2012,LA Swest,509.0,36.0
+2012,LA Trade,1749.0,74.0
+2012,LA Valley,1113.0,76.0
+2012,Lake Tahoe,104.0,13.0
+2012,Laney,564.0,196.0
+2012,Las Positas,119.0,24.0
+2012,Lassen,207.0,15.0
+2012,Lemoore College,133.0,8.0
+2012,Long Beach,1060.0,131.0
+2012,Los Medanos,491.0,72.0
+2012,Marin,326.0,38.0
+2012,Mendocino,224.0,16.0
+2012,Merced,941.0,104.0
+2012,Merritt,414.0,70.0
+2012,MiraCosta,532.0,40.0
+2012,Mission,320.0,39.0
+2012,Modesto,995.0,71.0
+2012,Monterey,345.0,73.0
+2012,Moorpark,289.0,17.0
+2012,Moreno Valley,401.0,28.0
+2012,Mt San Antonio,723.0,102.0
+2012,Mt. San Jacinto,398.0,78.0
+2012,Napa,144.0,34.0
+2012,Norco,299.0,22.0
+2012,Ohlone,172.0,23.0
+2012,Orange Coast,1092.0,81.0
+2012,Oxnard,725.0,136.0
+2012,Palo Verde,380.0,30.0
+2012,Palomar,847.0,46.0
+2012,Pasadena,752.0,30.0
+2012,Porterville,425.0,78.0
+2012,Redwoods,814.0,81.0
+2012,Reedley College,577.0,28.0
+2012,Rio Hondo,741.0,93.0
+2012,Riverside,478.0,59.0
+2012,Sacramento City,853.0,104.0
+2012,Saddleback,444.0,25.0
+2012,San Bernardino,539.0,65.0
+2012,San Diego City,724.0,47.0
+2012,San Diego Mesa,675.0,35.0
+2012,San Diego Miramar,420.0,30.0
+2012,San Francisco,856.0,41.0
+2012,San Joaquin Delta,847.0,178.0
+2012,San Jose City,693.0,64.0
+2012,San Mateo,361.0,11.0
+2012,Santa Ana,1076.0,58.0
+2012,Santa Barbara,1466.0,81.0
+2012,Santa Monica,821.0,31.0
+2012,Santa Rosa,492.0,40.0
+2012,Santiago Canyon,286.0,15.0
+2012,Sequoias,932.0,135.0
+2012,Shasta,716.0,41.0
+2012,Sierra,527.0,79.0
+2012,Siskiyous,318.0,26.0
+2012,Skyline,325.0,53.0
+2012,Solano,252.0,29.0
+2012,Southwestern,1771.0,97.0
+2012,Taft,211.0,11.0
+2012,Ventura,629.0,41.0
+2012,Victor Valley,1152.0,110.0
+2012,West LA,514.0,39.0
+2012,West Valley,288.0,23.0
+2012,Woodland,160.0,31.0
+2012,Yuba,610.0,68.0
+2013,Alameda,519.0,48.0
+2013,Allan Hancock,700.0,164.0
+2013,American River,857.0,85.0
+2013,Antelope Valley,589.0,101.0
+2013,Bakersfield,595.0,120.0
+2013,Barstow,243.0,54.0
+2013,Berkeley City,235.0,31.0
+2013,Butte,1179.0,106.0
+2013,Cabrillo,182.0,50.0
+2013,Canada,398.0,32.0
+2013,Canyons,431.0,44.0
+2013,Cerritos,695.0,64.0
+2013,Cerro Coso,260.0,39.0
+2013,Chabot Hayward,220.0,47.0
+2013,Chaffey,791.0,58.0
+2013,Citrus,563.0,37.0
+2013,Coalinga College,146.0,11.0
+2013,Coastline,144.0,7.0
+2013,Columbia,185.0,12.0
+2013,Compton,788.0,239.0
+2013,Contra Costa,491.0,57.0
+2013,Copper Mountain College,110.0,24.0
+2013,Cosumnes River,624.0,57.0
+2013,Crafton Hills,380.0,31.0
+2013,Cuesta,222.0,48.0
+2013,Cuyamaca,452.0,59.0
+2013,Cypress,461.0,56.0
+2013,Deanza,686.0,35.0
+2013,Desert,248.0,49.0
+2013,Diablo Valley,632.0,44.0
+2013,East LA,1731.0,105.0
+2013,El Camino,946.0,111.0
+2013,Evergreen Valley,648.0,54.0
+2013,Feather River,176.0,12.0
+2013,Folsom Lake,161.0,31.0
+2013,Foothill,407.0,22.0
+2013,Fresno City,1211.0,136.0
+2013,Fullerton,1077.0,113.0
+2013,Gavilan,257.0,110.0
+2013,Glendale,1832.0,24.0
+2013,Golden West,967.0,35.0
+2013,Grossmont,849.0,101.0
+2013,Hartnell,480.0,97.0
+2013,Imperial,973.0,167.0
+2013,Irvine,545.0,37.0
+2013,LA City,2246.0,64.0
+2013,LA Harbor,434.0,61.0
+2013,LA Mission,501.0,36.0
+2013,LA Pierce,808.0,17.0
+2013,LA Swest,552.0,61.0
+2013,LA Trade,1627.0,158.0
+2013,LA Valley,1026.0,67.0
+2013,Lake Tahoe,98.0,10.0
+2013,Laney,557.0,145.0
+2013,Las Positas,177.0,19.0
+2013,Lassen,202.0,18.0
+2013,Lemoore College,156.0,12.0
+2013,Long Beach,1159.0,116.0
+2013,Los Medanos,455.0,74.0
+2013,Marin,288.0,20.0
+2013,Mendocino,222.0,10.0
+2013,Merced,921.0,77.0
+2013,Merritt,471.0,73.0
+2013,MiraCosta,525.0,53.0
+2013,Mission,320.0,27.0
+2013,Modesto,976.0,65.0
+2013,Monterey,357.0,45.0
+2013,Moorpark,381.0,18.0
+2013,Moreno Valley,301.0,22.0
+2013,Mt San Antonio,752.0,91.0
+2013,Mt. San Jacinto,381.0,81.0
+2013,Napa,154.0,21.0
+2013,Norco,283.0,18.0
+2013,Ohlone,189.0,23.0
+2013,Orange Coast,1018.0,72.0
+2013,Oxnard,729.0,111.0
+2013,Palo Verde,361.0,24.0
+2013,Palomar,799.0,43.0
+2013,Pasadena,703.0,19.0
+2013,Porterville,419.0,77.0
+2013,Redwoods,691.0,57.0
+2013,Reedley College,595.0,45.0
+2013,Rio Hondo,769.0,84.0
+2013,Riverside,378.0,53.0
+2013,Sacramento City,887.0,79.0
+2013,Saddleback,388.0,13.0
+2013,San Bernardino,600.0,62.0
+2013,San Diego City,984.0,51.0
+2013,San Diego Mesa,514.0,34.0
+2013,San Diego Miramar,435.0,20.0
+2013,San Francisco,964.0,75.0
+2013,San Joaquin Delta,872.0,153.0
+2013,San Jose City,581.0,63.0
+2013,San Mateo,362.0,12.0
+2013,Santa Ana,931.0,40.0
+2013,Santa Barbara,1200.0,57.0
+2013,Santa Monica,824.0,46.0
+2013,Santa Rosa,484.0,41.0
+2013,Santiago Canyon,274.0,13.0
+2013,Sequoias,940.0,96.0
+2013,Shasta,659.0,43.0
+2013,Sierra,532.0,73.0
+2013,Siskiyous,301.0,19.0
+2013,Skyline,372.0,39.0
+2013,Solano,183.0,29.0
+2013,Southwestern,1661.0,87.0
+2013,Taft,220.0,16.0
+2013,Ventura,578.0,28.0
+2013,Victor Valley,1194.0,59.0
+2013,West LA,492.0,46.0
+2013,West Valley,282.0,19.0
+2013,Woodland,155.0,25.0
+2013,Yuba,592.0,82.0
+2014,Alameda,564.0,32.0
+2014,Allan Hancock,599.0,130.0
+2014,American River,806.0,109.0
+2014,Antelope Valley,602.0,90.0
+2014,Bakersfield,825.0,118.0
+2014,Barstow,244.0,73.0
+2014,Berkeley City,259.0,21.0
+2014,Butte,1137.0,94.0
+2014,Cabrillo,201.0,60.0
+2014,Canada,398.0,28.0
+2014,Canyons,434.0,56.0
+2014,Cerritos,822.0,60.0
+2014,Cerro Coso,257.0,38.0
+2014,Chabot Hayward,281.0,41.0
+2014,Chaffey,980.0,65.0
+2014,Citrus,632.0,26.0
+2014,Coalinga College,172.0,13.0
+2014,Coastline,143.0,17.0
+2014,Columbia,176.0,9.0
+2014,Compton,834.0,181.0
+2014,Contra Costa,614.0,58.0
+2014,Copper Mountain College,120.0,23.0
+2014,Cosumnes River,632.0,71.0
+2014,Crafton Hills,431.0,38.0
+2014,Cuesta,210.0,41.0
+2014,Cuyamaca,629.0,69.0
+2014,Cypress,452.0,47.0
+2014,Deanza,658.0,16.0
+2014,Desert,283.0,54.0
+2014,Diablo Valley,625.0,49.0
+2014,East LA,1776.0,3.0
+2014,El Camino,1195.0,131.0
+2014,Evergreen Valley,604.0,42.0
+2014,Feather River,104.0,6.0
+2014,Folsom Lake,178.0,34.0
+2014,Foothill,409.0,20.0
+2014,Fresno City,1400.0,139.0
+2014,Fullerton,874.0,93.0
+2014,Gavilan,321.0,97.0
+2014,Glendale,1843.0,25.0
+2014,Golden West,895.0,28.0
+2014,Grossmont,732.0,108.0
+2014,Hartnell,536.0,90.0
+2014,Imperial,982.0,161.0
+2014,Irvine,474.0,27.0
+2014,LA City,2187.0,75.0
+2014,LA Harbor,507.0,74.0
+2014,LA Mission,703.0,37.0
+2014,LA Pierce,1005.0,33.0
+2014,LA Swest,613.0,34.0
+2014,LA Trade,2203.0,173.0
+2014,LA Valley,1037.0,62.0
+2014,Lake Tahoe,108.0,13.0
+2014,Laney,648.0,140.0
+2014,Las Positas,200.0,16.0
+2014,Lassen,189.0,12.0
+2014,Lemoore College,204.0,16.0
+2014,Long Beach,1427.0,119.0
+2014,Los Medanos,474.0,78.0
+2014,Marin,326.0,28.0
+2014,Mendocino,185.0,5.0
+2014,Merced,998.0,70.0
+2014,Merritt,483.0,84.0
+2014,MiraCosta,572.0,46.0
+2014,Mission,367.0,25.0
+2014,Modesto,879.0,63.0
+2014,Monterey,415.0,60.0
+2014,Moorpark,378.0,23.0
+2014,Moreno Valley,365.0,46.0
+2014,Mt San Antonio,823.0,78.0
+2014,Mt. San Jacinto,455.0,77.0
+2014,Napa,189.0,23.0
+2014,Norco,310.0,20.0
+2014,Ohlone,197.0,26.0
+2014,Orange Coast,1277.0,71.0
+2014,Oxnard,805.0,115.0
+2014,Palo Verde,373.0,15.0
+2014,Palomar,833.0,30.0
+2014,Pasadena,920.0,5.0
+2014,Porterville,474.0,40.0
+2014,Redwoods,775.0,59.0
+2014,Reedley College,680.0,45.0
+2014,Rio Hondo,854.0,93.0
+2014,Riverside,513.0,61.0
+2014,Sacramento City,962.0,83.0
+2014,Saddleback,363.0,8.0
+2014,San Bernardino,744.0,58.0
+2014,San Diego City,1100.0,59.0
+2014,San Diego Mesa,601.0,33.0
+2014,San Diego Miramar,449.0,18.0
+2014,San Francisco,943.0,69.0
+2014,San Joaquin Delta,900.0,119.0
+2014,San Jose City,644.0,59.0
+2014,San Mateo,361.0,6.0
+2014,Santa Ana,1059.0,43.0
+2014,Santa Barbara,1328.0,35.0
+2014,Santa Monica,861.0,25.0
+2014,Santa Rosa,530.0,43.0
+2014,Santiago Canyon,322.0,15.0
+2014,Sequoias,999.0,97.0
+2014,Shasta,754.0,43.0
+2014,Sierra,536.0,83.0
+2014,Siskiyous,306.0,8.0
+2014,Skyline,397.0,45.0
+2014,Solano,304.0,20.0
+2014,Southwestern,1823.0,86.0
+2014,Taft,228.0,15.0
+2014,Ventura,622.0,19.0
+2014,Victor Valley,1247.0,18.0
+2014,West LA,504.0,61.0
+2014,West Valley,252.0,18.0
+2014,Woodland,163.0,27.0
+2014,Yuba,627.0,65.0
+2015,Alameda,537.0,27.0
+2015,Allan Hancock,552.0,128.0
+2015,American River,1020.0,113.0
+2015,Antelope Valley,555.0,78.0
+2015,Bakersfield,766.0,98.0
+2015,Barstow,257.0,83.0
+2015,Berkeley City,274.0,30.0
+2015,Butte,1175.0,90.0
+2015,Cabrillo,271.0,52.0
+2015,Canada,295.0,24.0
+2015,Canyons,478.0,46.0
+2015,Cerritos,838.0,54.0
+2015,Cerro Coso,254.0,32.0
+2015,Chabot Hayward,303.0,33.0
+2015,Chaffey,835.0,79.0
+2015,Citrus,575.0,30.0
+2015,Coalinga College,186.0,21.0
+2015,Coastline,165.0,11.0
+2015,Columbia,201.0,11.0
+2015,Compton,768.0,172.0
+2015,Contra Costa,622.0,51.0
+2015,Copper Mountain College,140.0,34.0
+2015,Cosumnes River,616.0,61.0
+2015,Crafton Hills,422.0,48.0
+2015,Cuesta,253.0,44.0
+2015,Cuyamaca,883.0,59.0
+2015,Cypress,588.0,53.0
+2015,Deanza,769.0,10.0
+2015,Desert,320.0,54.0
+2015,Diablo Valley,636.0,36.0
+2015,East LA,1531.0,84.0
+2015,El Camino,1184.0,156.0
+2015,Evergreen Valley,468.0,29.0
+2015,Feather River,142.0,10.0
+2015,Folsom Lake,181.0,41.0
+2015,Foothill,402.0,20.0
+2015,Fresno City,1457.0,125.0
+2015,Fullerton,1177.0,117.0
+2015,Gavilan,345.0,79.0
+2015,Glendale,1952.0,29.0
+2015,Golden West,878.0,48.0
+2015,Grossmont,810.0,108.0
+2015,Hartnell,571.0,74.0
+2015,Imperial,952.0,152.0
+2015,Irvine,554.0,30.0
+2015,LA City,2179.0,69.0
+2015,LA Harbor,410.0,60.0
+2015,LA Mission,788.0,41.0
+2015,LA Pierce,1115.0,31.0
+2015,LA Swest,672.0,30.0
+2015,LA Trade,2159.0,175.0
+2015,LA Valley,1191.0,58.0
+2015,Lake Tahoe,124.0,9.0
+2015,Laney,553.0,121.0
+2015,Las Positas,211.0,15.0
+2015,Lassen,209.0,15.0
+2015,Lemoore College,189.0,22.0
+2015,Long Beach,1575.0,120.0
+2015,Los Medanos,472.0,75.0
+2015,Marin,283.0,28.0
+2015,Mendocino,271.0,16.0
+2015,Merced,950.0,92.0
+2015,Merritt,486.0,73.0
+2015,MiraCosta,557.0,58.0
+2015,Mission,350.0,22.0
+2015,Modesto,935.0,55.0
+2015,Monterey,432.0,61.0
+2015,Moorpark,448.0,22.0
+2015,Moreno Valley,355.0,34.0
+2015,Mt San Antonio,853.0,80.0
+2015,Mt. San Jacinto,427.0,67.0
+2015,Napa,234.0,19.0
+2015,Norco,305.0,24.0
+2015,Ohlone,203.0,23.0
+2015,Orange Coast,1353.0,70.0
+2015,Oxnard,817.0,97.0
+2015,Palo Verde,449.0,21.0
+2015,Palomar,852.0,35.0
+2015,Pasadena,807.0,23.0
+2015,Porterville,464.0,36.0
+2015,Redwoods,893.0,48.0
+2015,Reedley College,654.0,31.0
+2015,Rio Hondo,991.0,85.0
+2015,Riverside,501.0,57.0
+2015,Sacramento City,1088.0,73.0
+2015,Saddleback,366.0,17.0
+2015,San Bernardino,784.0,47.0
+2015,San Diego City,1357.0,66.0
+2015,San Diego Mesa,614.0,27.0
+2015,San Diego Miramar,439.0,23.0
+2015,San Francisco,1038.0,68.0
+2015,San Joaquin Delta,969.0,117.0
+2015,San Jose City,636.0,49.0
+2015,San Mateo,362.0,7.0
+2015,Santa Ana,1192.0,35.0
+2015,Santa Barbara,1225.0,28.0
+2015,Santa Monica,882.0,30.0
+2015,Santa Rosa,581.0,44.0
+2015,Santiago Canyon,316.0,16.0
+2015,Sequoias,993.0,108.0
+2015,Shasta,711.0,36.0
+2015,Sierra,616.0,70.0
+2015,Siskiyous,276.0,7.0
+2015,Skyline,397.0,36.0
+2015,Solano,392.0,21.0
+2015,Southwestern,1907.0,92.0
+2015,Taft,228.0,16.0
+2015,Ventura,717.0,28.0
+2015,Victor Valley,1156.0,161.0
+2015,West LA,505.0,33.0
+2015,West Valley,258.0,16.0
+2015,Woodland,181.0,21.0
+2015,Yuba,727.0,67.0
+2016,Alameda,608.0,39.0
+2016,Allan Hancock,713.0,99.0
+2016,American River,1094.0,108.0
+2016,Antelope Valley,709.0,110.0
+2016,Bakersfield,997.0,93.0
+2016,Barstow,369.0,70.0
+2016,Berkeley City,241.0,14.0
+2016,Butte,1188.0,80.0
+2016,Cabrillo,353.0,56.0
+2016,Canada,401.0,24.0
+2016,Canyons,524.0,45.0
+2016,Cerritos,1056.0,50.0
+2016,Cerro Coso,240.0,29.0
+2016,Chabot Hayward,385.0,39.0
+2016,Chaffey,929.0,77.0
+2016,Citrus,701.0,36.0
+2016,Clovis,70.0,9.0
+2016,Coalinga College,164.0,16.0
+2016,Coastline,207.0,8.0
+2016,Columbia,278.0,10.0
+2016,Compton,926.0,172.0
+2016,Contra Costa,729.0,58.0
+2016,Copper Mountain College,156.0,33.0
+2016,Cosumnes River,605.0,58.0
+2016,Crafton Hills,444.0,46.0
+2016,Cuesta,263.0,47.0
+2016,Cuyamaca,911.0,56.0
+2016,Cypress,655.0,69.0
+2016,Deanza,951.0,14.0
+2016,Desert,396.0,58.0
+2016,Diablo Valley,733.0,40.0
+2016,East LA,1535.0,86.0
+2016,El Camino,1173.0,97.0
+2016,Evergreen Valley,668.0,36.0
+2016,Feather River,119.0,9.0
+2016,Folsom Lake,230.0,39.0
+2016,Foothill,432.0,13.0
+2016,Fresno City,1665.0,146.0
+2016,Fullerton,1507.0,91.0
+2016,Gavilan,402.0,57.0
+2016,Glendale,1949.0,29.0
+2016,Golden West,852.0,31.0
+2016,Grossmont,1028.0,121.0
+2016,Hartnell,605.0,55.0
+2016,Imperial,1186.0,184.0
+2016,Irvine,692.0,36.0
+2016,LA City,2647.0,67.0
+2016,LA Harbor,602.0,37.0
+2016,LA Mission,868.0,37.0
+2016,LA Pierce,1181.0,37.0
+2016,LA Swest,583.0,46.0
+2016,LA Trade,2390.0,197.0
+2016,LA Valley,1331.0,50.0
+2016,Lake Tahoe,147.0,14.0
+2016,Laney,601.0,119.0
+2016,Las Positas,243.0,10.0
+2016,Lassen,196.0,12.0
+2016,Lemoore College,190.0,21.0
+2016,Long Beach,1516.0,89.0
+2016,Los Medanos,567.0,75.0
+2016,Marin,308.0,21.0
+2016,Mendocino,427.0,28.0
+2016,Merced,1089.0,115.0
+2016,Merritt,520.0,75.0
+2016,MiraCosta,636.0,57.0
+2016,Mission,380.0,15.0
+2016,Modesto,1240.0,69.0
+2016,Monterey,613.0,54.0
+2016,Moorpark,463.0,21.0
+2016,Moreno Valley,464.0,38.0
+2016,Mt San Antonio,1035.0,82.0
+2016,Mt. San Jacinto,499.0,80.0
+2016,Napa,250.0,21.0
+2016,Norco,321.0,24.0
+2016,Ohlone,211.0,22.0
+2016,Orange Coast,1473.0,72.0
+2016,Oxnard,877.0,100.0
+2016,Palo Verde,445.0,18.0
+2016,Palomar,916.0,41.0
+2016,Pasadena,856.0,29.0
+2016,Porterville,721.0,57.0
+2016,Redwoods,815.0,42.0
+2016,Reedley College,876.0,45.0
+2016,Rio Hondo,1195.0,112.0
+2016,Riverside,597.0,48.0
+2016,Sacramento City,1092.0,73.0
+2016,Saddleback,421.0,23.0
+2016,San Bernardino,822.0,47.0
+2016,San Diego City,1284.0,55.0
+2016,San Diego Mesa,668.0,21.0
+2016,San Diego Miramar,521.0,20.0
+2016,San Francisco,1165.0,85.0
+2016,San Joaquin Delta,942.0,106.0
+2016,San Jose City,805.0,39.0
+2016,San Mateo,387.0,10.0
+2016,Santa Ana,1348.0,34.0
+2016,Santa Barbara,1091.0,34.0
+2016,Santa Monica,1066.0,27.0
+2016,Santa Rosa,656.0,31.0
+2016,Santiago Canyon,364.0,18.0
+2016,Sequoias,1066.0,119.0
+2016,Shasta,792.0,33.0
+2016,Sierra,666.0,72.0
+2016,Siskiyous,269.0,9.0
+2016,Skyline,398.0,24.0
+2016,Solano,335.0,27.0
+2016,Southwestern,2000.0,83.0
+2016,Taft,252.0,26.0
+2016,Ventura,741.0,29.0
+2016,Victor Valley,1151.0,127.0
+2016,West LA,576.0,33.0
+2016,West Valley,276.0,16.0
+2016,Woodland,200.0,26.0
+2016,Yuba,848.0,67.0
+2017,Alameda,560.0,36.0
+2017,Allan Hancock,1061.0,127.0
+2017,American River,1082.0,78.0
+2017,Antelope Valley,758.0,105.0
+2017,Bakersfield,1429.0,23.0
+2017,Barstow,394.0,76.0
+2017,Berkeley City,258.0,11.0
+2017,Butte,1257.0,83.0
+2017,Cabrillo,448.0,57.0
+2017,Canada,438.0,25.0
+2017,Canyons,597.0,32.0
+2017,Cerritos,1166.0,62.0
+2017,Cerro Coso,366.0,28.0
+2017,Chabot Hayward,407.0,42.0
+2017,Chaffey,900.0,75.0
+2017,Citrus,754.0,28.0
+2017,Clovis,285.0,40.0
+2017,Coalinga College,209.0,25.0
+2017,Coastline,393.0,10.0
+2017,Columbia,307.0,18.0
+2017,Compton,827.0,120.0
+2017,Contra Costa,747.0,56.0
+2017,Copper Mountain College,187.0,38.0
+2017,Cosumnes River,654.0,54.0
+2017,Crafton Hills,448.0,40.0
+2017,Cuesta,270.0,59.0
+2017,Cuyamaca,975.0,53.0
+2017,Cypress,800.0,57.0
+2017,Deanza,877.0,8.0
+2017,Desert,426.0,65.0
+2017,Diablo Valley,813.0,45.0
+2017,East LA,1770.0,111.0
+2017,El Camino,1687.0,133.0
+2017,Evergreen Valley,673.0,32.0
+2017,Feather River,125.0,7.0
+2017,Folsom Lake,274.0,35.0
+2017,Foothill,426.0,13.0
+2017,Fresno City,1844.0,121.0
+2017,Fullerton,1505.0,94.0
+2017,Gavilan,445.0,56.0
+2017,Glendale,2095.0,22.0
+2017,Golden West,903.0,29.0
+2017,Grossmont,1083.0,103.0
+2017,Hartnell,619.0,63.0
+2017,Imperial,1276.0,155.0
+2017,Irvine,746.0,25.0
+2017,LA City,2481.0,90.0
+2017,LA Harbor,762.0,54.0
+2017,LA Mission,741.0,47.0
+2017,LA Pierce,1273.0,35.0
+2017,LA Swest,615.0,20.0
+2017,LA Trade,2341.0,190.0
+2017,LA Valley,1246.0,53.0
+2017,Lake Tahoe,158.0,10.0
+2017,Laney,816.0,120.0
+2017,Las Positas,251.0,8.0
+2017,Lassen,182.0,19.0
+2017,Lemoore College,274.0,26.0
+2017,Long Beach,1464.0,95.0
+2017,Los Medanos,676.0,70.0
+2017,Marin,327.0,27.0
+2017,Mendocino,467.0,15.0
+2017,Merced,1138.0,117.0
+2017,Merritt,504.0,45.0
+2017,MiraCosta,677.0,52.0
+2017,Mission,505.0,27.0
+2017,Modesto,1279.0,78.0
+2017,Monterey,708.0,88.0
+2017,Moorpark,461.0,27.0
+2017,Moreno Valley,447.0,30.0
+2017,Mt San Antonio,1015.0,72.0
+2017,Mt. San Jacinto,465.0,74.0
+2017,Napa,325.0,18.0
+2017,Norco,378.0,23.0
+2017,Ohlone,243.0,15.0
+2017,Orange Coast,1526.0,61.0
+2017,Oxnard,920.0,106.0
+2017,Palo Verde,486.0,27.0
+2017,Palomar,1018.0,37.0
+2017,Pasadena,910.0,34.0
+2017,Porterville,733.0,67.0
+2017,Redwoods,743.0,45.0
+2017,Reedley College,998.0,45.0
+2017,Rio Hondo,1415.0,107.0
+2017,Riverside,939.0,52.0
+2017,Sacramento City,1133.0,55.0
+2017,Saddleback,506.0,25.0
+2017,San Bernardino,860.0,35.0
+2017,San Diego City,1232.0,58.0
+2017,San Diego Mesa,737.0,18.0
+2017,San Diego Miramar,569.0,20.0
+2017,San Francisco,1090.0,62.0
+2017,San Joaquin Delta,917.0,97.0
+2017,San Jose City,787.0,34.0
+2017,San Mateo,404.0,7.0
+2017,Santa Ana,1473.0,35.0
+2017,Santa Barbara,1114.0,52.0
+2017,Santa Monica,1155.0,28.0
+2017,Santa Rosa,726.0,30.0
+2017,Santiago Canyon,399.0,15.0
+2017,Sequoias,1070.0,120.0
+2017,Shasta,807.0,46.0
+2017,Sierra,711.0,70.0
+2017,Siskiyous,260.0,10.0
+2017,Skyline,360.0,23.0
+2017,Solano,270.0,23.0
+2017,Southwestern,2218.0,96.0
+2017,Taft,297.0,18.0
+2017,Ventura,703.0,33.0
+2017,Victor Valley,1274.0,56.0
+2017,West LA,673.0,44.0
+2017,West Valley,370.0,10.0
+2017,Woodland,463.0,34.0
+2017,Yuba,752.0,51.0
+2018,Alameda,572.0,44.0
+2018,Allan Hancock,994.0,113.0
+2018,American River,1200.0,84.0
+2018,Antelope Valley,775.0,107.0
+2018,Bakersfield,1368.0,97.0
+2018,Barstow,461.0,68.0
+2018,Berkeley City,286.0,9.0
+2018,Butte,1186.0,88.0
+2018,Cabrillo,461.0,52.0
+2018,Canada,394.0,21.0
+2018,Canyons,556.0,32.0
+2018,Cerritos,1195.0,54.0
+2018,Cerro Coso,395.0,24.0
+2018,Chabot Hayward,413.0,41.0
+2018,Chaffey,963.0,60.0
+2018,Citrus,782.0,20.0
+2018,Clovis,331.0,56.0
+2018,Coalinga College,263.0,22.0
+2018,Coastline,388.0,12.0
+2018,Columbia,318.0,23.0
+2018,Compton,705.0,125.0
+2018,Contra Costa,812.0,38.0
+2018,Copper Mountain College,179.0,48.0
+2018,Cosumnes River,674.0,42.0
+2018,Crafton Hills,453.0,50.0
+2018,Cuesta,278.0,60.0
+2018,Cuyamaca,1053.0,49.0
+2018,Cypress,841.0,52.0
+2018,Deanza,839.0,2.0
+2018,Desert,416.0,76.0
+2018,Diablo Valley,804.0,40.0
+2018,East LA,2102.0,82.0
+2018,El Camino,1720.0,134.0
+2018,Evergreen Valley,723.0,21.0
+2018,Feather River,129.0,5.0
+2018,Folsom Lake,290.0,24.0
+2018,Foothill,422.0,8.0
+2018,Fresno City,1971.0,147.0
+2018,Fullerton,1448.0,97.0
+2018,Gavilan,446.0,80.0
+2018,Glendale,2082.0,33.0
+2018,Golden West,884.0,19.0
+2018,Grossmont,1053.0,130.0
+2018,Hartnell,631.0,61.0
+2018,Imperial,1331.0,161.0
+2018,Irvine,724.0,17.0
+2018,LA City,2305.0,83.0
+2018,LA Harbor,763.0,64.0
+2018,LA Mission,671.0,28.0
+2018,LA Pierce,1153.0,13.0
+2018,LA Swest,620.0,42.0
+2018,LA Trade,1701.0,165.0
+2018,LA Valley,1167.0,49.0
+2018,Lake Tahoe,175.0,5.0
+2018,Laney,931.0,94.0
+2018,Las Positas,285.0,13.0
+2018,Lassen,241.0,14.0
+2018,Lemoore College,314.0,22.0
+2018,Long Beach,1710.0,113.0
+2018,Los Medanos,674.0,50.0
+2018,Marin,307.0,28.0
+2018,Mendocino,513.0,22.0
+2018,Merced,1098.0,119.0
+2018,Merritt,579.0,40.0
+2018,MiraCosta,575.0,38.0
+2018,Mission,408.0,26.0
+2018,Modesto,1322.0,91.0
+2018,Monterey,730.0,68.0
+2018,Moorpark,495.0,29.0
+2018,Moreno Valley,499.0,38.0
+2018,Mt San Antonio,1294.0,84.0
+2018,Mt. San Jacinto,478.0,54.0
+2018,Napa,321.0,14.0
+2018,Norco,444.0,27.0
+2018,Ohlone,273.0,13.0
+2018,Orange Coast,1319.0,41.0
+2018,Oxnard,874.0,99.0
+2018,Palo Verde,671.0,18.0
+2018,Palomar,894.0,41.0
+2018,Pasadena,924.0,39.0
+2018,Porterville,720.0,77.0
+2018,Redwoods,680.0,53.0
+2018,Reedley College,1005.0,59.0
+2018,Rio Hondo,1564.0,114.0
+2018,Riverside,1031.0,67.0
+2018,Sacramento City,1132.0,59.0
+2018,Saddleback,518.0,25.0
+2018,San Bernardino,825.0,40.0
+2018,San Diego City,1237.0,73.0
+2018,San Diego Mesa,1097.0,41.0
+2018,San Diego Miramar,858.0,21.0
+2018,San Francisco,1204.0,55.0
+2018,San Joaquin Delta,1016.0,85.0
+2018,San Jose City,793.0,23.0
+2018,San Mateo,408.0,3.0
+2018,Santa Ana,1529.0,35.0
+2018,Santa Barbara,1141.0,32.0
+2018,Santa Monica,1020.0,23.0
+2018,Santa Rosa,733.0,27.0
+2018,Santiago Canyon,412.0,11.0
+2018,Sequoias,1103.0,105.0
+2018,Shasta,941.0,65.0
+2018,Sierra,742.0,81.0
+2018,Siskiyous,259.0,9.0
+2018,Skyline,428.0,13.0
+2018,Solano,206.0,19.0
+2018,Southwestern,2301.0,91.0
+2018,Taft,310.0,17.0
+2018,Ventura,773.0,23.0
+2018,Victor Valley,1330.0,135.0
+2018,West LA,558.0,38.0
+2018,West Valley,364.0,9.0
+2018,Woodland,453.0,46.0
+2018,Yuba,778.0,50.0
+2019,Alameda,638.0,37.0
+2019,Allan Hancock,1087.0,97.0
+2019,American River,1183.0,64.0
+2019,Antelope Valley,760.0,102.0
+2019,Bakersfield,1847.0,116.0
+2019,Barstow,526.0,72.0
+2019,Berkeley City,262.0,7.0
+2019,Butte,1106.0,76.0
+2019,Cabrillo,408.0,46.0
+2019,Canada,400.0,18.0
+2019,Canyons,507.0,22.0
+2019,Cerritos,1116.0,47.0
+2019,Cerro Coso,376.0,22.0
+2019,Chabot Hayward,418.0,33.0
+2019,Chaffey,1072.0,46.0
+2019,Citrus,727.0,15.0
+2019,Clovis,349.0,69.0
+2019,Coalinga College,241.0,13.0
+2019,Coastline,396.0,9.0
+2019,Columbia,318.0,22.0
+2019,Compton,736.0,136.0
+2019,Contra Costa,868.0,36.0
+2019,Copper Mountain College,144.0,34.0
+2019,Cosumnes River,845.0,29.0
+2019,Crafton Hills,459.0,32.0
+2019,Cuesta,281.0,61.0
+2019,Cuyamaca,1214.0,53.0
+2019,Cypress,973.0,53.0
+2019,Deanza,749.0,4.0
+2019,Desert,420.0,80.0
+2019,Diablo Valley,782.0,44.0
+2019,East LA,2149.0,85.0
+2019,El Camino,1746.0,152.0
+2019,Evergreen Valley,761.0,21.0
+2019,Feather River,105.0,6.0
+2019,Folsom Lake,333.0,35.0
+2019,Foothill,410.0,8.0
+2019,Fresno City,2065.0,153.0
+2019,Fullerton,1534.0,76.0
+2019,Gavilan,429.0,82.0
+2019,Glendale,2024.0,35.0
+2019,Golden West,879.0,18.0
+2019,Grossmont,990.0,96.0
+2019,Hartnell,669.0,46.0
+2019,Imperial,1261.0,184.0
+2019,Irvine,792.0,18.0
+2019,LA City,2383.0,76.0
+2019,LA Harbor,772.0,60.0
+2019,LA Mission,701.0,35.0
+2019,LA Pierce,1145.0,23.0
+2019,LA Swest,576.0,38.0
+2019,LA Trade,1802.0,154.0
+2019,LA Valley,1105.0,38.0
+2019,Lake Tahoe,143.0,8.0
+2019,Laney,893.0,79.0
+2019,Las Positas,344.0,15.0
+2019,Lassen,184.0,7.0
+2019,Lemoore College,332.0,43.0
+2019,Long Beach,1572.0,104.0
+2019,Los Medanos,789.0,45.0
+2019,Marin,315.0,22.0
+2019,Mendocino,515.0,21.0
+2019,Merced,1136.0,120.0
+2019,Merritt,519.0,37.0
+2019,MiraCosta,690.0,43.0
+2019,Mission,406.0,18.0
+2019,Modesto,1311.0,85.0
+2019,Monterey,752.0,48.0
+2019,Moorpark,475.0,27.0
+2019,Moreno Valley,581.0,46.0
+2019,Mt San Antonio,1304.0,89.0
+2019,Mt. San Jacinto,454.0,67.0
+2019,Napa,294.0,13.0
+2019,Norco,400.0,24.0
+2019,Ohlone,262.0,12.0
+2019,Orange Coast,1442.0,45.0
+2019,Oxnard,837.0,79.0
+2019,Palo Verde,770.0,14.0
+2019,Palomar,859.0,44.0
+2019,Pasadena,1083.0,37.0
+2019,Porterville,732.0,62.0
+2019,Redwoods,777.0,57.0
+2019,Reedley College,1076.0,57.0
+2019,Rio Hondo,1635.0,95.0
+2019,Riverside,1037.0,71.0
+2019,Sacramento City,1222.0,76.0
+2019,Saddleback,500.0,17.0
+2019,San Bernardino,866.0,40.0
+2019,San Diego City,1609.0,71.0
+2019,San Diego Mesa,700.0,20.0
+2019,San Diego Miramar,627.0,15.0
+2019,San Francisco,1222.0,43.0
+2019,San Joaquin Delta,1013.0,73.0
+2019,San Jose City,875.0,23.0
+2019,San Mateo,411.0,8.0
+2019,Santa Ana,1626.0,43.0
+2019,Santa Barbara,1188.0,39.0
+2019,Santa Monica,943.0,29.0
+2019,Santa Rosa,740.0,19.0
+2019,Santiago Canyon,384.0,9.0
+2019,Sequoias,1132.0,89.0
+2019,Shasta,885.0,54.0
+2019,Sierra,803.0,71.0
+2019,Siskiyous,218.0,9.0
+2019,Skyline,376.0,13.0
+2019,Solano,208.0,30.0
+2019,Southwestern,2141.0,81.0
+2019,Taft,323.0,21.0
+2019,Ventura,725.0,24.0
+2019,Victor Valley,1613.0,85.0
+2019,West LA,639.0,36.0
+2019,West Valley,374.0,5.0
+2019,Woodland,491.0,36.0
+2019,Yuba,767.0,60.0
+2020,Alameda,564.0,23.0
+2020,Allan Hancock,1352.0,99.0
+2020,American River,1214.0,65.0
+2020,Antelope Valley,640.0,87.0
+2020,Bakersfield,2142.0,128.0
+2020,Barstow,507.0,69.0
+2020,Berkeley City,244.0,10.0
+2020,Butte,951.0,43.0
+2020,Cabrillo,435.0,49.0
+2020,Canada,347.0,8.0
+2020,Canyons,502.0,25.0
+2020,Cerritos,1053.0,67.0
+2020,Cerro Coso,263.0,23.0
+2020,Chabot Hayward,433.0,31.0
+2020,Chaffey,1059.0,48.0
+2020,Citrus,637.0,33.0
+2020,Clovis,415.0,66.0
+2020,Coalinga College,275.0,13.0
+2020,Coastline,395.0,12.0
+2020,Columbia,326.0,17.0
+2020,Compton,534.0,75.0
+2020,Contra Costa,858.0,33.0
+2020,Copper Mountain College,211.0,29.0
+2020,Cosumnes River,717.0,39.0
+2020,Crafton Hills,463.0,30.0
+2020,Cuesta,300.0,47.0
+2020,Cuyamaca,1014.0,36.0
+2020,Cypress,1080.0,49.0
+2020,Deanza,716.0,9.0
+2020,Desert,459.0,49.0
+2020,Diablo Valley,742.0,38.0
+2020,East LA,2228.0,82.0
+2020,El Camino,1746.0,156.0
+2020,Evergreen Valley,664.0,30.0
+2020,Feather River,102.0,6.0
+2020,Folsom Lake,338.0,39.0
+2020,Foothill,366.0,9.0
+2020,Fresno City,2140.0,126.0
+2020,Fullerton,1469.0,64.0
+2020,Gavilan,425.0,54.0
+2020,Glendale,2090.0,28.0
+2020,Golden West,820.0,17.0
+2020,Grossmont,996.0,63.0
+2020,Hartnell,755.0,43.0
+2020,Imperial,1449.0,187.0
+2020,Irvine,766.0,16.0
+2020,LA City,2327.0,54.0
+2020,LA Harbor,800.0,57.0
+2020,LA Mission,763.0,32.0
+2020,LA Pierce,1218.0,29.0
+2020,LA Swest,484.0,42.0
+2020,LA Trade,1720.0,153.0
+2020,LA Valley,1133.0,40.0
+2020,Lake Tahoe,145.0,7.0
+2020,Laney,853.0,65.0
+2020,Las Positas,359.0,17.0
+2020,Lassen,216.0,11.0
+2020,Lemoore College,420.0,48.0
+2020,Long Beach,1740.0,88.0
+2020,Los Medanos,714.0,36.0
+2020,Marin,315.0,27.0
+2020,Mendocino,560.0,30.0
+2020,Merced,1130.0,96.0
+2020,Merritt,450.0,29.0
+2020,MiraCosta,651.0,42.0
+2020,Mission,406.0,8.0
+2020,Modesto,1389.0,99.0
+2020,Monterey,814.0,23.0
+2020,Moorpark,499.0,29.0
+2020,Moreno Valley,664.0,41.0
+2020,Mt San Antonio,1405.0,93.0
+2020,Mt. San Jacinto,465.0,62.0
+2020,Napa,288.0,18.0
+2020,Norco,400.0,26.0
+2020,Ohlone,291.0,8.0
+2020,Orange Coast,1238.0,35.0
+2020,Oxnard,881.0,74.0
+2020,Palo Verde,806.0,15.0
+2020,Palomar,859.0,38.0
+2020,Pasadena,1045.0,30.0
+2020,Porterville,757.0,63.0
+2020,Redwoods,673.0,53.0
+2020,Reedley College,1056.0,69.0
+2020,Rio Hondo,1602.0,84.0
+2020,Riverside,1139.0,80.0
+2020,Sacramento City,1121.0,82.0
+2020,Saddleback,533.0,17.0
+2020,San Bernardino,765.0,49.0
+2020,San Diego City,1028.0,39.0
+2020,San Diego Mesa,778.0,17.0
+2020,San Diego Miramar,565.0,18.0
+2020,San Francisco,1241.0,27.0
+2020,San Joaquin Delta,1139.0,76.0
+2020,San Jose City,839.0,13.0
+2020,San Mateo,478.0,6.0
+2020,Santa Ana,1542.0,37.0
+2020,Santa Barbara,1222.0,25.0
+2020,Santa Monica,864.0,13.0
+2020,Santa Rosa,801.0,20.0
+2020,Santiago Canyon,359.0,10.0
+2020,Sequoias,1185.0,67.0
+2020,Shasta,945.0,58.0
+2020,Sierra,834.0,60.0
+2020,Siskiyous,213.0,5.0
+2020,Skyline,311.0,15.0
+2020,Solano,251.0,22.0
+2020,Southwestern,2186.0,70.0
+2020,Taft,349.0,17.0
+2020,Ventura,598.0,22.0
+2020,Victor Valley,1632.0,76.0
+2020,West LA,774.0,47.0
+2020,West Valley,373.0,5.0
+2020,Woodland,428.0,27.0
+2020,Yuba,779.0,50.0
+2021,Alameda,373.0,2.0
+2021,Allan Hancock,1016.0,73.0
+2021,American River,1086.0,59.0
+2021,Antelope Valley,528.0,74.0
+2021,Bakersfield,1820.0,86.0
+2021,Barstow,326.0,32.0
+2021,Berkeley City,166.0,10.0
+2021,Butte,577.0,29.0
+2021,Cabrillo,318.0,26.0
+2021,Canada,248.0,5.0
+2021,Canyons,374.0,13.0
+2021,Cerritos,911.0,53.0
+2021,Cerro Coso,234.0,15.0
+2021,Chabot Hayward,441.0,14.0
+2021,Chaffey,904.0,40.0
+2021,Citrus,525.0,17.0
+2021,Clovis,470.0,46.0
+2021,Coalinga College,234.0,9.0
+2021,Coastline,394.0,15.0
+2021,Columbia,185.0,6.0
+2021,Compton,339.0,42.0
+2021,Contra Costa,646.0,18.0
+2021,Copper Mountain College,138.0,17.0
+2021,Cosumnes River,660.0,19.0
+2021,Crafton Hills,373.0,16.0
+2021,Cuesta,235.0,39.0
+2021,Cuyamaca,669.0,16.0
+2021,Cypress,993.0,39.0
+2021,Deanza,743.0,6.0
+2021,Desert,441.0,27.0
+2021,Diablo Valley,691.0,38.0
+2021,East LA,1354.0,44.0
+2021,El Camino,1448.0,95.0
+2021,Evergreen Valley,370.0,16.0
+2021,Feather River,100.0,2.0
+2021,Folsom Lake,302.0,28.0
+2021,Foothill,257.0,7.0
+2021,Fresno City,2113.0,119.0
+2021,Fullerton,1287.0,43.0
+2021,Gavilan,430.0,27.0
+2021,Glendale,1880.0,32.0
+2021,Golden West,627.0,12.0
+2021,Grossmont,712.0,41.0
+2021,Hartnell,621.0,25.0
+2021,Imperial,1511.0,169.0
+2021,Irvine,704.0,11.0
+2021,LA City,2013.0,40.0
+2021,LA Harbor,566.0,46.0
+2021,LA Mission,642.0,24.0
+2021,LA Pierce,942.0,19.0
+2021,LA Swest,260.0,14.0
+2021,LA Trade,832.0,72.0
+2021,LA Valley,915.0,29.0
+2021,Lake Tahoe,92.0,4.0
+2021,Laney,596.0,33.0
+2021,Las Positas,299.0,10.0
+2021,Lassen,156.0,7.0
+2021,Lemoore College,377.0,36.0
+2021,Long Beach,1442.0,72.0
+2021,Los Medanos,618.0,17.0
+2021,Madera,248.0,22.0
+2021,Marin,284.0,19.0
+2021,Mendocino,426.0,11.0
+2021,Merced,927.0,89.0
+2021,Merritt,305.0,16.0
+2021,MiraCosta,527.0,29.0
+2021,Mission,370.0,7.0
+2021,Modesto,1138.0,57.0
+2021,Monterey,520.0,23.0
+2021,Moorpark,413.0,21.0
+2021,Moreno Valley,587.0,30.0
+2021,Mt San Antonio,1316.0,86.0
+2021,Mt. San Jacinto,383.0,32.0
+2021,Napa,257.0,12.0
+2021,Norco,346.0,17.0
+2021,Ohlone,287.0,7.0
+2021,Orange Coast,1164.0,28.0
+2021,Oxnard,653.0,52.0
+2021,Palo Verde,619.0,8.0
+2021,Palomar,602.0,24.0
+2021,Pasadena,877.0,22.0
+2021,Porterville,558.0,39.0
+2021,Redwoods,483.0,22.0
+2021,Reedley College,681.0,21.0
+2021,Rio Hondo,1150.0,50.0
+2021,Riverside,1254.0,69.0
+2021,Sacramento City,975.0,47.0
+2021,Saddleback,490.0,13.0
+2021,San Bernardino,589.0,39.0
+2021,San Diego City,1022.0,31.0
+2021,San Diego Mesa,762.0,19.0
+2021,San Diego Miramar,494.0,9.0
+2021,San Francisco,1184.0,12.0
+2021,San Joaquin Delta,1178.0,91.0
+2021,San Jose City,712.0,8.0
+2021,San Mateo,356.0,5.0
+2021,Santa Ana,909.0,28.0
+2021,Santa Barbara,844.0,16.0
+2021,Santa Monica,571.0,1.0
+2021,Santa Rosa,723.0,18.0
+2021,Santiago Canyon,281.0,11.0
+2021,Sequoias,1177.0,53.0
+2021,Shasta,815.0,40.0
+2021,Sierra,732.0,39.0
+2021,Siskiyous,143.0,3.0
+2021,Skyline,197.0,6.0
+2021,Solano,201.0,17.0
+2021,Southwestern,2077.0,55.0
+2021,Taft,242.0,8.0
+2021,Ventura,465.0,13.0
+2021,Victor Valley,1094.0,41.0
+2021,West LA,630.0,29.0
+2021,West Valley,361.0,7.0
+2021,Woodland,415.0,18.0
+2021,Yuba,592.0,35.0
+2022,Alameda,268.0,6.0
+2022,Allan Hancock,927.0,55.0
+2022,American River,996.0,61.0
+2022,Antelope Valley,442.0,58.0
+2022,Bakersfield,1783.0,73.0
+2022,Barstow,386.0,40.0
+2022,Berkeley City,112.0,7.0
+2022,Butte,464.0,18.0
+2022,Cabrillo,272.0,23.0
+2022,Canada,213.0,5.0
+2022,Canyons,307.0,16.0
+2022,Cerritos,830.0,59.0
+2022,Cerro Coso,197.0,22.0
+2022,Chabot Hayward,408.0,18.0
+2022,Chaffey,922.0,36.0
+2022,Citrus,428.0,14.0
+2022,Clovis,524.0,36.0
+2022,Coalinga College,225.0,6.0
+2022,Coastline,374.0,16.0
+2022,Columbia,134.0,8.0
+2022,Compton,290.0,46.0
+2022,Contra Costa,582.0,15.0
+2022,Copper Mountain College,141.0,10.0
+2022,Cosumnes River,530.0,22.0
+2022,Crafton Hills,300.0,15.0
+2022,Cuesta,216.0,29.0
+2022,Cuyamaca,614.0,24.0
+2022,Cypress,814.0,39.0
+2022,Deanza,596.0,2.0
+2022,Desert,432.0,18.0
+2022,Diablo Valley,582.0,32.0
+2022,East LA,1037.0,28.0
+2022,El Camino,1154.0,74.0
+2022,Evergreen Valley,271.0,9.0
+2022,Feather River,96.0,4.0
+2022,Folsom Lake,244.0,30.0
+2022,Foothill,223.0,6.0
+2022,Fresno City,2007.0,92.0
+2022,Fullerton,1023.0,28.0
+2022,Gavilan,422.0,26.0
+2022,Glendale,1708.0,23.0
+2022,Golden West,543.0,14.0
+2022,Grossmont,576.0,33.0
+2022,Hartnell,600.0,21.0
+2022,Imperial,1387.0,102.0
+2022,Irvine,540.0,6.0
+2022,LA City,1599.0,37.0
+2022,LA Harbor,451.0,33.0
+2022,LA Mission,592.0,34.0
+2022,LA Pierce,649.0,12.0
+2022,LA Swest,202.0,11.0
+2022,LA Trade,718.0,64.0
+2022,LA Valley,865.0,30.0
+2022,Lake Tahoe,77.0,6.0
+2022,Laney,476.0,22.0
+2022,Las Positas,222.0,6.0
+2022,Lassen,105.0,7.0
+2022,Lemoore College,346.0,23.0
+2022,Long Beach,1173.0,72.0
+2022,Los Medanos,496.0,24.0
+2022,Madera,206.0,18.0
+2022,Marin,292.0,26.0
+2022,Mendocino,383.0,9.0
+2022,Merced,1053.0,94.0
+2022,Merritt,170.0,9.0
+2022,MiraCosta,502.0,22.0
+2022,Mission,320.0,6.0
+2022,Modesto,1207.0,56.0
+2022,Monterey,504.0,17.0
+2022,Moorpark,417.0,20.0
+2022,Moreno Valley,472.0,24.0
+2022,Mt San Antonio,1256.0,86.0
+2022,Mt. San Jacinto,319.0,28.0
+2022,Napa,233.0,12.0
+2022,Norco,308.0,17.0
+2022,Ohlone,203.0,4.0
+2022,Orange Coast,973.0,23.0
+2022,Oxnard,627.0,51.0
+2022,Palo Verde,597.0,8.0
+2022,Palomar,569.0,26.0
+2022,Pasadena,884.0,17.0
+2022,Porterville,608.0,31.0
+2022,Redwoods,528.0,32.0
+2022,Reedley College,542.0,20.0
+2022,Rio Hondo,996.0,43.0
+2022,Riverside,1151.0,66.0
+2022,Sacramento City,870.0,33.0
+2022,Saddleback,427.0,15.0
+2022,San Bernardino,395.0,28.0
+2022,San Diego City,896.0,33.0
+2022,San Diego Mesa,829.0,18.0
+2022,San Diego Miramar,471.0,16.0
+2022,San Francisco,1193.0,20.0
+2022,San Joaquin Delta,869.0,76.0
+2022,San Jose City,665.0,9.0
+2022,San Mateo,326.0,5.0
+2022,Santa Ana,685.0,22.0
+2022,Santa Barbara,736.0,8.0
+2022,Santa Monica,609.0,2.0
+2022,Santa Rosa,660.0,22.0
+2022,Santiago Canyon,211.0,9.0
+2022,Sequoias,1188.0,55.0
+2022,Shasta,783.0,34.0
+2022,Sierra,726.0,31.0
+2022,Siskiyous,119.0,3.0
+2022,Skyline,150.0,2.0
+2022,Solano,165.0,12.0
+2022,Southwestern,1708.0,47.0
+2022,Taft,221.0,4.0
+2022,Ventura,595.0,18.0
+2022,Victor Valley,1063.0,26.0
+2022,West LA,575.0,27.0
+2022,West Valley,303.0,10.0
+2022,Woodland,403.0,24.0
+2022,Yuba,523.0,29.0
+2023,Alameda,737.0,12.0
+2023,Allan Hancock,1001.0,56.0
+2023,American River,946.0,69.0
+2023,Antelope Valley,411.0,55.0
+2023,Bakersfield,1991.0,77.0
+2023,Barstow,366.0,62.0
+2023,Berkeley City,144.0,10.0
+2023,Butte,574.0,41.0
+2023,Cabrillo,374.0,36.0
+2023,Canada,193.0,5.0
+2023,Canyons,300.0,15.0
+2023,Cerritos,877.0,71.0
+2023,Cerro Coso,221.0,22.0
+2023,Chabot Hayward,413.0,18.0
+2023,Chaffey,956.0,68.0
+2023,Citrus,633.0,26.0
+2023,Clovis,565.0,49.0
+2023,Coalinga College,218.0,7.0
+2023,Coastline,299.0,31.0
+2023,Columbia,173.0,16.0
+2023,Compton,369.0,72.0
+2023,Contra Costa,584.0,22.0
+2023,Copper Mountain College,154.0,13.0
+2023,Cosumnes River,575.0,20.0
+2023,Crafton Hills,258.0,21.0
+2023,Cuesta,201.0,35.0
+2023,Cuyamaca,705.0,40.0
+2023,Cypress,800.0,52.0
+2023,Deanza,587.0,7.0
+2023,Desert,476.0,33.0
+2023,Diablo Valley,520.0,39.0
+2023,East LA,1100.0,51.0
+2023,El Camino,1164.0,88.0
+2023,Evergreen Valley,276.0,16.0
+2023,Feather River,72.0,7.0
+2023,Folsom Lake,264.0,28.0
+2023,Foothill,230.0,3.0
+2023,Fresno City,2196.0,143.0
+2023,Fullerton,971.0,38.0
+2023,Gavilan,420.0,29.0
+2023,Glendale,1567.0,21.0
+2023,Golden West,615.0,12.0
+2023,Grossmont,716.0,26.0
+2023,Hartnell,518.0,28.0
+2023,Imperial,1803.0,104.0
+2023,Irvine,565.0,17.0
+2023,LA City,1635.0,37.0
+2023,LA Harbor,574.0,47.0
+2023,LA Mission,669.0,36.0
+2023,LA Pierce,792.0,26.0
+2023,LA Swest,299.0,17.0
+2023,LA Trade,1039.0,76.0
+2023,LA Valley,1104.0,56.0
+2023,Lake Tahoe,112.0,8.0
+2023,Laney,481.0,27.0
+2023,Las Positas,237.0,11.0
+2023,Lassen,212.0,14.0
+2023,Lemoore College,402.0,31.0
+2023,Long Beach,1227.0,129.0
+2023,Los Medanos,524.0,28.0
+2023,Madera,232.0,18.0
+2023,Marin,291.0,19.0
+2023,Mendocino,411.0,22.0
+2023,Merced,1178.0,146.0
+2023,Merritt,169.0,17.0
+2023,MiraCosta,532.0,30.0
+2023,Mission,422.0,16.0
+2023,Modesto,1090.0,65.0
+2023,Monterey,554.0,33.0
+2023,Moorpark,395.0,29.0
+2023,Moreno Valley,370.0,30.0
+2023,Mt San Antonio,1384.0,81.0
+2023,Mt. San Jacinto,395.0,39.0
+2023,Napa,196.0,12.0
+2023,Norco,344.0,20.0
+2023,Ohlone,130.0,4.0
+2023,Orange Coast,1028.0,20.0
+2023,Oxnard,656.0,48.0
+2023,Palo Verde,624.0,22.0
+2023,Palomar,602.0,27.0
+2023,Pasadena,818.0,16.0
+2023,Porterville,679.0,35.0
+2023,Redwoods,506.0,49.0
+2023,Reedley College,664.0,31.0
+2023,Rio Hondo,968.0,73.0
+2023,Riverside,1205.0,68.0
+2023,Sacramento City,802.0,36.0
+2023,Saddleback,504.0,15.0
+2023,San Bernardino,285.0,21.0
+2023,San Diego City,1019.0,56.0
+2023,San Diego Mesa,743.0,16.0
+2023,San Diego Miramar,453.0,26.0
+2023,San Francisco,1119.0,17.0
+2023,San Joaquin Delta,739.0,54.0
+2023,San Jose City,773.0,13.0
+2023,San Mateo,390.0,7.0
+2023,Santa Ana,862.0,20.0
+2023,Santa Barbara,931.0,3.0
+2023,Santa Monica,637.0,3.0
+2023,Santa Rosa,717.0,21.0
+2023,Santiago Canyon,183.0,11.0
+2023,Sequoias,1186.0,67.0
+2023,Shasta,868.0,41.0
+2023,Sierra,689.0,50.0
+2023,Siskiyous,123.0,2.0
+2023,Skyline,152.0,3.0
+2023,Solano,210.0,19.0
+2023,Southwestern,1888.0,65.0
+2023,Taft,212.0,7.0
+2023,Ventura,472.0,15.0
+2023,Victor Valley,1219.0,72.0
+2023,West LA,693.0,50.0
+2023,West Valley,313.0,8.0
+2023,Woodland,394.0,26.0
+2023,Yuba,447.0,22.0
