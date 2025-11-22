@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from pathlib import Path
 
 # -------------------------
@@ -7,7 +8,6 @@ DATA_PROC = Path("ml/q3_enrollment_melt/processed_data")
 DATA_PROC.mkdir(exist_ok=True, parents=True)
 
 # -------------------------
-
 def academic_to_calendar_year(val):
     if pd.isna(val):
         return pd.NA
@@ -37,11 +37,19 @@ def academic_to_calendar_year(val):
 def normalize_cc(name: str):
     if pd.isna(name):
         return name
+
     s = str(name).upper().strip()
+
+    s = s.replace(".", "")
 
     for token in [
         " COMMUNITY COLLEGE",
+        " COMM COLLEGE",
+        " CMTY",          
+        " JR COLLEGE",
+        " JUNIOR COLLEGE",
         " COLLEGE",
+        "COLLEGE ",
         " CCD",
         " C.C.",
         " DISTRICT",
@@ -50,6 +58,61 @@ def normalize_cc(name: str):
         s = s.replace(token, "")
 
     s = " ".join(s.split())
+
+    cc_aliases = {
+        "CHABOT HAYWARD": "CHABOT",
+
+        "PASADENA": "PASADENA CITY",
+        "RIVERSIDE": "RIVERSIDE CITY",
+        "SAN BERNARDINO": "SAN BERNARDINO VALLEY",
+        "SANTA BARBARA": "SANTA BARBARA CITY",
+        "SANTA ROSA": "SANTA ROSA JUNIOR",
+
+        "COALINGA": "WEST HILLS COALINGA",
+        "LEMOORE": "WEST HILLS LEMOORE",
+        "WEST LA": "WEST LOS ANGELES",
+
+        "NAPA": "NAPA VALLEY",
+        "LAS POSITAS": "LAS POSITAS", 
+        "DEANZA": "DE ANZA",
+
+        "OF THE SISKIYOUS": "SISKIYOUS",
+        "OF THE SEQUOIAS": "SEQUOIAS",
+        "OF THE REDWOODS": "REDWOODS",
+        "OF THE DESERT": "DESERT",
+        "OF THE CANYONS": "CANYONS",
+        "OF SAN MATEO": "SAN MATEO",
+        "OF MARIN": "MARIN",
+        "OF ALAMEDA": "ALAMEDA",
+
+        "SAN MATEO": "SAN MATEO",
+        "MARIN": "MARIN",
+        "ALAMEDA": "ALAMEDA",
+        "SAN FRANCISCO": "CITY OF SAN FRANCISCO",
+        "SAN FRANCISCO CTRS": "CITY OF SAN FRANCISCO",
+        "CITY OF SAN FRANCISCO": "CITY OF SAN FRANCISCO",
+
+        "MT SAN JACINTO": "MOUNT SAN JACINTO",
+        "MT SAN ANTONIO": "MOUNT SAN ANTONIO",
+       
+        "EAST LA": "EAST LOS ANGELES",
+        "IMPERIAL": "IMPERIAL VALLEY",
+        "IRVINE": "IRVINE VALLEY",
+        "LONG BEACH": "LONG BEACH CITY",
+
+        "LA CITY": "LOS ANGELES CITY",
+        "LA HARBOR": "LOS ANGELES HARBOR",
+        "LA MISSION": "LOS ANGELES MISSION",
+        "LA PIERCE": "LOS ANGELES PIERCE",
+        "LA SWEST": "LOS ANGELES SOUTHWEST",
+        "LA TRADE": "LOS ANGELES TRADE TECHNICAL",
+        "LA VALLEY": "LOS ANGELES VALLEY",
+
+        "MODESTO": "MODESTO JUNIOR",
+        "MONTEREY": "MONTEREY PENINSULA",
+    }
+
+    s = cc_aliases.get(s, s)
     return s
 
 def normalize_uc(name: str):
@@ -332,7 +395,6 @@ melt["melt_rate"] = melt["melt_count"] / melt["n_admit"]
 
 melt.to_csv(DATA_PROC / "cc2uc_melt_overall.csv", index=False)
 
-
 # =====================================================
 # 5. gender / ethnicity
 # =====================================================
@@ -365,6 +427,10 @@ gender_feat = gender_wide[
     ["cc_name", "uc_campus", "year"]
     + [c for c in gender_wide.columns if c.startswith("share_gender_")]
 ]
+
+share_gender_cols = [c for c in gender_feat.columns if c.startswith("share_gender_")]
+gender_feat[share_gender_cols] = gender_feat[share_gender_cols].fillna(0)
+
 gender_feat.to_csv(DATA_PROC / "cc2uc_gender_features.csv", index=False)
 
 # ----- ethnicity composition -----
@@ -401,8 +467,11 @@ eth_feat = eth_wide[
     ["cc_name", "uc_campus", "year"]
     + [c for c in eth_wide.columns if c.startswith("share_eth_")]
 ]
-eth_feat.to_csv(DATA_PROC / "cc2uc_ethnicity_features.csv", index=False)
 
+share_eth_cols = [c for c in eth_feat.columns if c.startswith("share_eth_")]
+eth_feat[share_eth_cols] = eth_feat[share_eth_cols].fillna(0)
+
+eth_feat.to_csv(DATA_PROC / "cc2uc_ethnicity_features.csv", index=False)
 # =====================================================
 # cc_uc_drive_distance
 # =====================================================
@@ -434,12 +503,11 @@ dist_feat = (
 dist_feat.to_csv(DATA_PROC / "cc_uc_distance_features.csv", index=False)
 
 # =====================================================
-# StudentCitizenshipStatus： CC 层面的 Permanent Resident 数量
+# StudentCitizenshipStatus
 # =====================================================
 cit_raw = pd.read_csv(DATA_RAW / "StudentCitizenshipStatus.csv", encoding="latin1")
 
 cit_raw = cit_raw.rename(columns={"Unnamed: 0": "area", "Unnamed: 1": "status"})
-
 cit_raw = cit_raw.iloc[1:].reset_index(drop=True)
 
 cit_raw["area_filled"] = cit_raw["area"].ffill()
@@ -451,7 +519,9 @@ cit_sel = cit_raw[cit_raw["status"].astype(str).str.contains("Permanent Resident
 count_cols = [
     c
     for c in cit_sel.columns
-    if isinstance(c, str) and c.startswith("Fall ") and ".1" not in c
+    if isinstance(c, str)
+    and c.startswith("Fall ")
+    and ".1" not in c       
 ]
 
 cit_long = cit_sel.melt(
@@ -461,7 +531,7 @@ cit_long = cit_sel.melt(
     value_name="count_raw",
 )
 
-cit_long["year_fall"] = cit_long["term"].str.extract(r"(\d{4})")[0].astype("Int64")
+cit_long["year"] = cit_long["term"].str.extract(r"(\d{4})")[0].astype("Int64")
 
 cit_long["count"] = (
     cit_long["count_raw"]
@@ -470,24 +540,18 @@ cit_long["count"] = (
 )
 cit_long["count"] = pd.to_numeric(cit_long["count"], errors="coerce")
 
-cit_long = cit_long.dropna(subset=["year_fall", "count"])
+cit_long = cit_long.dropna(subset=["year", "count"])
 
 perm_feat = (
     cit_long
-    .groupby(["cc_name", "year_fall"], as_index=False)
+    .groupby(["cc_name", "year"], as_index=False)
     .agg(cc_perm_resident_count=("count", "sum"))
 )
-
-perm_feat["year"] = perm_feat["year_fall"] + 1
-
-perm_feat["cc_key"] = perm_feat["cc_name"].apply(normalize_cc)
-
-perm_feat = perm_feat[["cc_key", "year", "cc_perm_resident_count"]]
 
 perm_feat.to_csv(DATA_PROC / "cc_perm_resident_by_year.csv", index=False)
 
 # =====================================================
-# 6. financial aid
+# 6. StudentFinAidSumm
 # =====================================================
 
 aid_raw = pd.read_csv(DATA_RAW / "StudentFinAidSumm.csv", encoding="latin1")
@@ -496,11 +560,10 @@ aid_raw = aid_raw.rename(columns={"Unnamed: 0": "area", "Unnamed: 1": "label"})
 
 aid_raw["area_filled"] = aid_raw["area"].ffill()
 
-# normalize_cc
 aid_raw["cc_name"] = (
     aid_raw["area_filled"]
     .str.replace(" Total", "", regex=False)
-    .apply(normalize_cc)
+    .apply(normalize_cc)     
 )
 
 wanted_labels = [
@@ -511,13 +574,11 @@ wanted_labels = [
 ]
 aid_sel = aid_raw[aid_raw["label"].isin(wanted_labels)].copy()
 
-# find "Annual YYYY-YYYY.2"
 amount_cols = [
     c for c in aid_sel.columns
     if isinstance(c, str) and c.startswith("Annual ") and c.endswith(".2")
 ]
 
-# (cc_name, label, year_col, amount_raw)
 aid_long = aid_sel.melt(
     id_vars=["cc_name", "label"],
     value_vars=amount_cols,
@@ -525,7 +586,6 @@ aid_long = aid_sel.melt(
     value_name="amount_raw",
 )
 
-# academic_to_calendar_year -> year
 aid_long["year_acad"] = aid_long["year_col"].str.extract(r"Annual (\d{4}-\d{4})")[0]
 aid_long["year"] = aid_long["year_acad"].apply(academic_to_calendar_year).astype("Int64")
 
@@ -538,7 +598,6 @@ aid_long["amount"] = pd.to_numeric(aid_long["amount"], errors="coerce")
 
 aid_long = aid_long.dropna(subset=["year", "amount"])
 
-# Pivot： (cc_name, year) + 4 aids
 aid_feat = aid_long.pivot_table(
     index=["cc_name", "year"],
     columns="label",
@@ -555,10 +614,7 @@ aid_feat = aid_feat.rename(
     }
 )
 
-aid_feat["cc_key"] = aid_feat["cc_name"].apply(normalize_cc)
-
 aid_feat.to_csv(DATA_PROC / "cc_aid_features_by_year.csv", index=False)
-
 
 # =====================================================
 # 7. merge master panel
@@ -580,30 +636,103 @@ panel = panel.merge(
     how="left",
 )
 
-# ---- CC aid + perm_resident ----
-panel["cc_key"] = panel["cc_name"].apply(normalize_cc)
 
-aid_merge = aid_feat[[
-    "cc_key",
-    "year",
-    "cc_aid_promise_amt",
-    "cc_aid_grants_amt",
-    "cc_aid_loans_amt",
-    "cc_aid_scholarship_amt",
-]]
+panel = panel.merge(
+    aid_feat[
+        [
+            "cc_name",
+            "year",
+            "cc_aid_promise_amt",
+            "cc_aid_grants_amt",
+            "cc_aid_loans_amt",
+            "cc_aid_scholarship_amt",
+        ]
+    ],
+    on=["cc_name", "year"],
+    how="left",
+)
 
-perm_merge = perm_feat[[
-    "cc_key",
-    "year",
-    "cc_perm_resident_count",
-]]
+panel = panel.merge(
+    perm_feat[
+        [
+            "cc_name",
+            "year",
+            "cc_perm_resident_count",
+        ]
+    ],
+    on=["cc_name", "year"],
+    how="left",
+)
 
-panel = panel.merge(aid_merge, on=["cc_key", "year"], how="left")
-panel = panel.merge(perm_merge, on=["cc_key", "year"], how="left")
+cols_to_drop = [
+    "cc_ftft_pell_rate",
+    "cc_ftft_fedloan_rate",
+    "cc_pell_rate",
+    "cc_fedloan_rate",
+    "uc_admit_rate_overall",
+    "uc_ftft_pell_rate",
+    "uc_ftft_fedloan_rate",
+    "uc_pell_rate",
+    "uc_fedloan_rate",
+    "share_gender_other",
+    "share_gender_unknown",
+    "share_eth_domestic_unknown",
+    "total_major_enrolls"
+]
 
-panel = panel.drop(columns=["cc_key"])
+panel = panel.drop(columns=cols_to_drop, errors="ignore")
+
+# =====================================================
+#  cc_*/uc_*  enrollment & cost imputation
+# =====================================================
+
+#Median
+cc_cols = ["cc_ug_enroll_12m", "cc_coa_ay"] 
+
+for col in cc_cols:
+    if col in panel.columns:
+        panel[col] = (
+            panel
+            .groupby("cc_name")[col]
+            .transform(lambda s: s.fillna(s.median()))
+        )
+        panel[col] = panel[col].fillna(panel[col].median())
+
+# Linear
+
+def backcast_uc_with_trend(panel: pd.DataFrame, col: str) -> pd.DataFrame:
+    df = panel.copy()
+
+    for campus, grp in df.groupby("uc_campus"):
+        grp = grp.sort_values("year")
+        years = grp["year"].to_numpy()
+        values = grp[col].to_numpy(dtype="float64")
+
+        series = pd.Series(values, index=years)
+        series_interp = series.interpolate()  
+
+        mask_obs = series_interp.notna().to_numpy()
+
+        x = years[mask_obs].astype(float)
+        y = series_interp.to_numpy()[mask_obs].astype(float)
+
+        a, b = np.polyfit(x, y, 1)
+        filled = series_interp.to_numpy().copy()
+
+        year_min_obs = x.min()
+        early_mask = years < year_min_obs
+        if early_mask.any():
+            filled[early_mask] = a * years[early_mask] + b
+
+        df.loc[grp.index, col] = filled
+
+    return df
+
+for col in ["uc_ug_enroll_12m", "uc_coa_ay"]:
+    panel = backcast_uc_with_trend(panel, col)
+
+for col in ["cc_aid_loans_amt", "cc_aid_scholarship_amt"]:
+    if col in panel.columns:
+        panel[col] = panel[col].fillna(0)
 
 panel.to_csv(DATA_PROC / "melt_panel_master.csv", index=False)
-
-print("Master panel shape:", panel.shape)
-print(panel.head())
