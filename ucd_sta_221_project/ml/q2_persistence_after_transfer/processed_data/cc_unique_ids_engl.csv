@@ -55,7 +55,7 @@ CollegeID,CollegeName,InputCollegeName
 344,Merritt College,Merritt
 51,MiraCosta College,MiraCosta
 492,Mission College,Mission
-743,Los Angeles Mission College,Mission
+743,Los Angeles Mission College,LA Mission
 592,Modesto Junior College,Modesto
 461,Monterey Peninsula College,Monterey
 681,Moorpark College,Moorpark
@@ -107,7 +107,6 @@ CollegeID,CollegeName,InputCollegeName
 748,,East LA
 741,,LA City
 742,,LA Harbor
-743,,LA Mission
 744,,LA Pierce
 745,,LA Swest
 746,,LA Trade
