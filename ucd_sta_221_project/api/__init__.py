@@ -3,3 +3,9 @@
 #     get_latest_student_scorecard_data_by_state,
 #     get_scorecard_by_college,
 # )
+
+from ucd_sta_221_project.api.cccco import (
+    get_ccc_colleges,
+    get_ccc_districts,
+    get_ccc_programs
+)
