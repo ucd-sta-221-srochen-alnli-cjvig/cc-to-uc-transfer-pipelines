@@ -7,9 +7,6 @@ name = "ccc_ml"  # The name used in pip install
 version = "0.1.0"
 description = "Wrapper for various college-relevant APIs"
 readme = "README.md" 
-authors = [
-    { name = "Cody Vig", email = "cody.cjv@gmail.com" }
-]
 
 requires-python = ">=3.12"
 
